@@ -1,0 +1,42 @@
+@media (max-width: 575px)
+{
+    .container
+    {
+        height: 70vh;
+        margin-top: 30px;
+    }
+    .game
+    {
+        width: 90vmin;
+        height: 90vmin;
+    }
+
+    .box
+    {
+        width: 28vmin;
+        height: 28vmin;
+    }
+    .resetDiv
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #reset-btn
+    {
+        position: absolute;
+        bottom: 330px;
+    }
+    .topContainer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .msg-container
+    {
+        position: absolute;
+        top: 80px;
+    }
+}
