@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Sample Form</h2>
+
+<form action="#" method="post">
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="confirmpassword">Confirm Password:</label><br>
+    <input type="password" id="confirmpassword" name="confirmpassword" required><br><br>
+    
+    <label for="birthdate">Date of Birth:</label><br>
+    <input type="date" id="birthdate" name="birthdate"><br><br>
+    
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br><br>
+
+    <label for="occupation">Occupation:</label><br>
+    <textarea rows="1" id="occupation" name="occupation"></textarea><br><br>
+    
+    <label for="interests">Interests:</label><br>
+
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label><br>
+
+    <input type="checkbox" id="music" name="interests" value="music">
+    <label for="music">Music</label><br>
+
+    <input type="checkbox" id="sports" name="interests" value="sports">
+    <label for="sports">Sports</label><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea placeholder="Type your message here..." id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+    <label for="favgame">Favorite Game:</label><br>
+    <textarea rows="1" id="favgame" name="favgame"></textarea><br><br>
+
+    <label for="favgenre">Favorite Genre:</label><br>
+    <select id="favgenre" name="favgenre">
+        <option value="RPG">RPG</option>
+        <option value="Racing">Racing</option>
+        <option value="FPS">FPS</option>
+    </select><br><br>
+
+    <label for="genre">Genre you play:</label><br>
+
+    <input type="checkbox" id="RPG" name="genre" value="RPG">
+    <label for="RPG">RPG</label><br>
+
+    <input type="checkbox" id="Racing" name="genre" value="Racing">
+    <label for="Racing">Racing</label><br>
+
+    <input type="checkbox" id="FPS" name="genre" value="FPS">
+    <label for="FPS">FPS</label>
+    <br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

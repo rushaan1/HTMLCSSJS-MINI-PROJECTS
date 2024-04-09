@@ -1,0 +1,90 @@
+@media (max-width: 695px) {
+    .add-first
+    {
+        font-size: 0.55rem;
+    }
+
+    .add-sec
+    {
+    font-size: 0.6rem;
+    }
+    .logo
+    {
+        width: 60px;
+        height: 27px;
+        margin-top: 8px;
+    }
+    .search-input
+    {
+        font-size: 0.67rem;
+    }
+    .nav-second
+    {
+        font-size: 0.6rem;
+        padding: 4px;
+    }
+
+    .nav-cart i {
+        font-size: 15px;
+        padding-left: 5px;
+    }
+
+    .search-icon
+    {
+        margin-right: 3.5px;
+    }
+
+    .panel-ops p
+    {
+        padding: 5px;
+    }
+    
+}
+
+@media (max-width: 416px)
+{
+    .panel-ops p
+    {
+        margin-left: 0px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 482px)
+{
+    .slider-msg
+    {
+        margin-left: 15px;
+        padding: 9px;
+    }
+}
+
+@media (max-width: 777px)
+{
+    .slider-msg
+    {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bottom-logo
+    {
+        margin-right: 28px;
+    }
+    .fbox
+    {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 436px)
+{
+    .bottom-logo
+    {
+        margin-right: 5px;
+        width: 90px;
+        height: 27px;
+    }
+}
+
