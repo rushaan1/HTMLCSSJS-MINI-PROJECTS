@@ -76,3 +76,43 @@ img
     color: #fff;
     border-radius: 1rem;
 }
+
+@media (max-width: 443px)
+{
+    .choices
+    {
+        gap: 0rem;
+        margin-right: 15px;
+    }
+    h1 .choices .score-board .msg-container
+    {
+        width: 442px;
+    }
+    img
+    {
+        height: 100px;
+        width: 100px;
+    }
+
+    #msg
+    {
+        font-size: 1.3rem;
+    }
+    .choice:hover
+    {
+        background-color: transparent;
+    }
+    img:hover
+    {
+        border: solid 6px;
+    }
+}
+
+@media (max-width: 328px)
+{
+    img
+    {
+        height: 90px;
+        width: 90px;
+    }
+}
